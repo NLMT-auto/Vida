@@ -1,0 +1,4 @@
+Invoking command in '/home/whilker/Documents/Vida/build/RemoteControl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/build/RemoteControl -- -j8 -l8
+Invoked command in '/home/whilker/Documents/Vida/build/RemoteControl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/build/RemoteControl -- -j8 -l8
+Invoking command in '/home/whilker/Documents/Vida/build/RemoteControl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/build/RemoteControl
+Invoked command in '/home/whilker/Documents/Vida/build/RemoteControl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/build/RemoteControl

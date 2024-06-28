@@ -1,0 +1,65 @@
+[0.015s] Invoking command in '/home/whilker/Documents/Vida/build/RemoteControl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/whilker/Documents/Vida/src/RemoteControl -DCMAKE_INSTALL_PREFIX=/home/whilker/Documents/Vida/install/RemoteControl
+[0.280s] -- The C compiler identification is GNU 11.4.0
+[0.437s] -- The CXX compiler identification is GNU 11.4.0
+[0.450s] -- Detecting C compiler ABI info
+[0.520s] -- Detecting C compiler ABI info - done
+[0.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.526s] -- Detecting C compile features
+[0.527s] -- Detecting C compile features - done
+[0.531s] -- Detecting CXX compiler ABI info
+[0.597s] -- Detecting CXX compiler ABI info - done
+[0.603s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.603s] -- Detecting CXX compile features
+[0.603s] -- Detecting CXX compile features - done
+[0.615s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.739s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.847s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.925s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.931s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.947s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.968s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.100s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.221s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.244s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.291s] -- Looking for pthread.h
+[1.358s] -- Looking for pthread.h - found
+[1.358s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.421s] -- Found Threads: TRUE  
+[1.561s] -- Found vida_interfaces: 0.0.0 (/home/whilker/Documents/Vida/install/vida_interfaces/share/vida_interfaces/cmake)
+[1.582s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.623s] WARNING: Package name "RemoteControl" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.653s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.653s] -- Configured cppcheck include dirs: 
+[1.653s] -- Configured cppcheck exclude dirs and/or files: 
+[1.654s] -- Added test 'lint_cmake' to check CMake code style
+[1.655s] -- Added test 'uncrustify' to check C / C++ code style
+[1.655s] -- Configured uncrustify additional arguments: 
+[1.655s] -- Added test 'xmllint' to check XML markup files
+[1.657s] -- Configuring done
+[1.660s] -- Generating done
+[1.661s] -- Build files have been written to: /home/whilker/Documents/Vida/build/RemoteControl
+[1.669s] Invoked command in '/home/whilker/Documents/Vida/build/RemoteControl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/whilker/Documents/Vida/src/RemoteControl -DCMAKE_INSTALL_PREFIX=/home/whilker/Documents/Vida/install/RemoteControl
+[1.671s] Invoking command in '/home/whilker/Documents/Vida/build/RemoteControl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/build/RemoteControl -- -j8 -l8
+[1.702s] Invoked command in '/home/whilker/Documents/Vida/build/RemoteControl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/build/RemoteControl -- -j8 -l8
+[1.729s] Invoking command in '/home/whilker/Documents/Vida/build/RemoteControl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/build/RemoteControl
+[1.735s] -- Install configuration: ""
+[1.735s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/package_run_dependencies/RemoteControl
+[1.735s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/parent_prefix_path/RemoteControl
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.sh
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.dsv
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.sh
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.dsv
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.bash
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.sh
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.zsh
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.dsv
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.dsv
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/packages/RemoteControl
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig.cmake
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig-version.cmake
+[1.736s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.xml
+[1.739s] Invoked command in '/home/whilker/Documents/Vida/build/RemoteControl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/build/RemoteControl

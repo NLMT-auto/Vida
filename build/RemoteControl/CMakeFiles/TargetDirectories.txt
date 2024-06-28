@@ -1,0 +1,10 @@
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/uninstall.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/RemoteControl_uninstall.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/remote_control.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/test.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/edit_cache.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/rebuild_cache.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/list_install_components.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/install.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/install/local.dir
+/home/whilker/Documents/Vida/build/RemoteControl/CMakeFiles/install/strip.dir

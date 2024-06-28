@@ -1,0 +1,16 @@
+/home/whilker/Documents/Vida/install/RemoteControl/lib/RemoteControl/remote_control
+/home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/package_run_dependencies/RemoteControl
+/home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/parent_prefix_path/RemoteControl
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.sh
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.dsv
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.sh
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.dsv
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.bash
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.sh
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.zsh
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.dsv
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.dsv
+/home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/packages/RemoteControl
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig.cmake
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig-version.cmake
+/home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.xml

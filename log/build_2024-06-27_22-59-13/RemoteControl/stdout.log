@@ -1,0 +1,21 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/remote_control.dir/src/RemoteControlPublisher/RemoteControlPublisher.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable remote_control[0m
+[100%] Built target remote_control
+-- Install configuration: ""
+-- Installing: /home/whilker/Documents/Vida/install/RemoteControl/lib/RemoteControl/remote_control
+-- Set runtime path of "/home/whilker/Documents/Vida/install/RemoteControl/lib/RemoteControl/remote_control" to ""
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/package_run_dependencies/RemoteControl
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/parent_prefix_path/RemoteControl
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.sh
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.sh
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.dsv
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.bash
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.sh
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.zsh
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.dsv
+-- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.dsv
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/packages/RemoteControl
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig.cmake
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig-version.cmake
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.xml

@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/whilker/Documents/Vida/build/RemoteControl': CMAKE_PREFIX_PATH=/home/whilker/Documents/Vida/install/vida_interfaces:/home/whilker/Documents/Vida/install/RemoteControl:/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/build/RemoteControl -- -j8 -l8
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target remote_control[0m
+[0.054s] [ 33%] [32mBuilding CXX object CMakeFiles/remote_control.dir/src/RemoteControlPublisher/RemoteControlPublisher.cpp.o[0m
+[1.635s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.636s]                  from [01m[K/home/whilker/Documents/Vida/src/RemoteControl/src/RemoteControlPublisher/RemoteControlPublisher.h:4[m[K,
+[1.636s]                  from [01m[K/home/whilker/Documents/Vida/src/RemoteControl/src/RemoteControlPublisher/RemoteControlPublisher.cpp:1[m[K:
+[1.636s] [01m[K/home/whilker/Documents/Vida/src/RemoteControl/src/RemoteControlPublisher/RemoteControlPublisher.cpp:[m[K In member function ‘[01m[Kvoid RemoteControl::udpReciver()[m[K’:
+[1.636s] [01m[K/home/whilker/Documents/Vida/src/RemoteControl/src/RemoteControlPublisher/RemoteControlPublisher.cpp:21:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.636s]    21 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"%s"[m[K, data);
+[1.636s]       |                                     [01;35m[K^~~~[m[K
+[1.636s] [01m[K/home/whilker/Documents/Vida/src/RemoteControl/src/RemoteControlPublisher/RemoteControlPublisher.cpp:21:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.636s]    21 |     RCLCPP_INFO(this->get_logger(), "[01;36m[K%s[m[K", data);
+[1.636s]       |                                      [01;36m[K~^[m[K
+[1.636s]       |                                       [01;36m[K|[m[K
+[1.636s]       |                                       [01;36m[Kchar*[m[K
+[3.018s] [ 66%] [32m[1mLinking CXX executable remote_control[0m
+[3.141s] [100%] Built target remote_control
+[3.149s] Invoked command in '/home/whilker/Documents/Vida/build/RemoteControl' returned '0': CMAKE_PREFIX_PATH=/home/whilker/Documents/Vida/install/vida_interfaces:/home/whilker/Documents/Vida/install/RemoteControl:/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/build/RemoteControl -- -j8 -l8
+[3.170s] Invoking command in '/home/whilker/Documents/Vida/build/RemoteControl': CMAKE_PREFIX_PATH=/home/whilker/Documents/Vida/install/vida_interfaces:/home/whilker/Documents/Vida/install/RemoteControl:/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/build/RemoteControl
+[3.175s] -- Install configuration: ""
+[3.175s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/lib/RemoteControl/remote_control
+[3.176s] -- Set runtime path of "/home/whilker/Documents/Vida/install/RemoteControl/lib/RemoteControl/remote_control" to ""
+[3.176s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/package_run_dependencies/RemoteControl
+[3.176s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/parent_prefix_path/RemoteControl
+[3.176s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.sh
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.dsv
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.sh
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.dsv
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.bash
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.sh
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.zsh
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.dsv
+[3.177s] -- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.dsv
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/packages/RemoteControl
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig.cmake
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig-version.cmake
+[3.177s] -- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.xml
+[3.178s] Invoked command in '/home/whilker/Documents/Vida/build/RemoteControl' returned '0': CMAKE_PREFIX_PATH=/home/whilker/Documents/Vida/install/vida_interfaces:/home/whilker/Documents/Vida/install/RemoteControl:/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/build/RemoteControl

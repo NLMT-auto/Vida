@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found vida_interfaces: 0.0.0 (/home/whilker/Documents/Vida/install/vida_interfaces/share/vida_interfaces/cmake)
+WARNING: Package name "RemoteControl" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/whilker/Documents/Vida/build/RemoteControl
+[ 66%] [32mBuilding CXX object CMakeFiles/remote_control.dir/src/RemoteControlPublisher/RemoteControlPublisher.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/remote_control.dir/src/Utils/UDP.cpp.o[0m
+[100%] [32m[1mLinking CXX executable remote_control[0m
+[100%] Built target remote_control
+-- Install configuration: ""
+-- Installing: /home/whilker/Documents/Vida/install/RemoteControl/lib/RemoteControl/remote_control
+-- Set runtime path of "/home/whilker/Documents/Vida/install/RemoteControl/lib/RemoteControl/remote_control" to ""
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/package_run_dependencies/RemoteControl
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/parent_prefix_path/RemoteControl
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.sh
+-- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.sh
+-- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/environment/path.dsv
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.bash
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.sh
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.zsh
+-- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/local_setup.dsv
+-- Installing: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.dsv
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/ament_index/resource_index/packages/RemoteControl
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig.cmake
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/cmake/RemoteControlConfig-version.cmake
+-- Up-to-date: /home/whilker/Documents/Vida/install/RemoteControl/share/RemoteControl/package.xml

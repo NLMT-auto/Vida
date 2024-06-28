@@ -1,0 +1,6 @@
+Invoking command in '/home/whilker/Documents/Vida/build/vida_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/whilker/Documents/Vida/src/vida_interfaces -DCMAKE_INSTALL_PREFIX=/home/whilker/Documents/Vida/install/vida_interfaces
+Invoked command in '/home/whilker/Documents/Vida/build/vida_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/whilker/Documents/Vida/src/vida_interfaces -DCMAKE_INSTALL_PREFIX=/home/whilker/Documents/Vida/install/vida_interfaces
+Invoking command in '/home/whilker/Documents/Vida/build/vida_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/build/vida_interfaces -- -j8 -l8
+Invoked command in '/home/whilker/Documents/Vida/build/vida_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/build/vida_interfaces -- -j8 -l8
+Invoking command in '/home/whilker/Documents/Vida/build/vida_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/build/vida_interfaces
+Invoked command in '/home/whilker/Documents/Vida/build/vida_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/build/vida_interfaces
