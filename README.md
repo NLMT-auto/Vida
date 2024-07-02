@@ -14,7 +14,7 @@
     sudo nmcli connection modify VIDA 802-11-wireless-security.psk "lmt.ufla"
 
 4- Configurar o IP fixo para a interface:
-    sudo nmcli connection modify VIDA ipv4.method manual ipv4.addresses 192.168.1.1/24
+    sudo nmcli connection modify VIDA ipv4.method manual ipv4.addresses 192.168.1.10/24
     sudo nmcli connection modify VIDA ipv4.gateway 192.168.1.1
     sudo nmcli connection modify VIDA ipv4.dns "8.8.8.8 8.8.4.4"
     sudo nmcli connection modify VIDA ipv6.method ignore
@@ -26,3 +26,7 @@
 
 6- Iniciar o ponto de acesso automáticamente na inicialização (opcional)
     sudo nmcli connection modify VIDA connection.autoconnect yes
+
+
+
+nm-connection-editor
