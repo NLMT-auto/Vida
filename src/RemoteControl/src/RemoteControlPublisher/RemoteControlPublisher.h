@@ -16,7 +16,7 @@ private:
     Publisher<vida_interfaces::msg::Controls>::SharedPtr publisher;
     TimerBase::SharedPtr timer;
 
-    void udpReciver();
+    void publishControlsData();
 
 public:
     RemoteControl(string name);

@@ -4,7 +4,7 @@ RemoteControl::RemoteControl(string name) : Node(name)
 {
     udp = new UDP();
     publisher = this->create_publisher<vida_interfaces::msg::Controls>("controls_data", 10);
-    thread(&RemoteControl::udpReciver, this).detach();
+    thread(&RemoteControl::publishControlsData, this).detach();
     RCLCPP_INFO(this->get_logger(), "Romote Control Has Been Started");
 }
 
@@ -13,7 +13,7 @@ RemoteControl::~RemoteControl()
     delete udp;
 }
 
-void RemoteControl::udpReciver()
+void RemoteControl::publishControlsData()
 {
     while (rclcpp::ok())
     {
