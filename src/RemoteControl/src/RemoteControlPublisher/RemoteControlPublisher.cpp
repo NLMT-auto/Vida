@@ -16,14 +16,14 @@ RemoteControl::~RemoteControl()
 void RemoteControl::publishControlsData()
 {
     while (rclcpp::ok())
-    {
-        string data = udp->read();
-        istringstream iss(data);
-
+    {   
         auto msg = vida_interfaces::msg::Controls();
 
-        iss >> msg.x;
-        iss >> msg.y;
+        string data = udp->read();
+        istringstream dataInt(data);        
+
+        dataInt >> msg.x;
+        dataInt >> msg.y;
 
         publisher->publish(msg);
     }
