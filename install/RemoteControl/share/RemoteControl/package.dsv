@@ -1,8 +1,0 @@
-source;share/RemoteControl/hook/cmake_prefix_path.ps1
-source;share/RemoteControl/hook/cmake_prefix_path.dsv
-source;share/RemoteControl/hook/cmake_prefix_path.sh
-source;share/RemoteControl/local_setup.bash
-source;share/RemoteControl/local_setup.dsv
-source;share/RemoteControl/local_setup.ps1
-source;share/RemoteControl/local_setup.sh
-source;share/RemoteControl/local_setup.zsh
