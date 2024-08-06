@@ -26,7 +26,21 @@ target_sources(
 
 )
 
+add_executable(record)
+ament_target_dependencies(record rclcpp vida_interfaces) 
+
+target_sources(
+  record
+
+  PRIVATE
+
+    src/Record/Record.cpp
+    src/Record/Record.h  
+)
+
+
 install(TARGETS
+  record
   remote_control  
   DESTINATION lib/${PROJECT_NAME}
 )

@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/msg/__init__.py" "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/_vida_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/msg/_controls.py" "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/_vida_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/msg/_controls_s.c" "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/_vida_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/msg/_sensor_datas.py" "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/_vida_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/msg/_sensor_datas_s.c" "/home/whilker/Documents/Vida/Ros/build/vida_interfaces/rosidl_generator_py/vida_interfaces/_vida_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

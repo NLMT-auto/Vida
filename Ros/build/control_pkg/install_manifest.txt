@@ -1,3 +1,4 @@
+/home/whilker/Documents/Vida/Ros/install/control_pkg/lib/control_pkg/record
 /home/whilker/Documents/Vida/Ros/install/control_pkg/lib/control_pkg/remote_control
 /home/whilker/Documents/Vida/Ros/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg
 /home/whilker/Documents/Vida/Ros/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg

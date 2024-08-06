@@ -1,6 +1,7 @@
 {
   "package_name": "vida_interfaces",
   "non_idl_tuples": [
-    "/home/whilker/Documents/Vida/Ros/src/vida_interfaces:msg/Controls.msg"
+    "/home/whilker/Documents/Vida/Ros/src/vida_interfaces:msg/Controls.msg",
+    "/home/whilker/Documents/Vida/Ros/src/vida_interfaces:msg/SensorDatas.msg"
   ]
 }

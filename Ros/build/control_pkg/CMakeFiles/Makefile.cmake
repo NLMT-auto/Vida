@@ -633,4 +633,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/control_pkg_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/remote_control.dir/DependInfo.cmake"
+  "CMakeFiles/record.dir/DependInfo.cmake"
   )

@@ -210,6 +210,19 @@ remote_control/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/remote_control.dir/build.make CMakeFiles/remote_control.dir/build
 .PHONY : remote_control/fast
 
+#=============================================================================
+# Target rules for targets named record
+
+# Build rule for target.
+record: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 record
+.PHONY : record
+
+# fast build rule for target.
+record/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/record.dir/build.make CMakeFiles/record.dir/build
+.PHONY : record/fast
+
 home/whilker/Documents/Vida/Utils/UDP/UDP.o: home/whilker/Documents/Vida/Utils/UDP/UDP.cpp.o
 .PHONY : home/whilker/Documents/Vida/Utils/UDP/UDP.o
 
@@ -233,6 +246,30 @@ home/whilker/Documents/Vida/Utils/UDP/UDP.s: home/whilker/Documents/Vida/Utils/U
 home/whilker/Documents/Vida/Utils/UDP/UDP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/remote_control.dir/build.make CMakeFiles/remote_control.dir/home/whilker/Documents/Vida/Utils/UDP/UDP.cpp.s
 .PHONY : home/whilker/Documents/Vida/Utils/UDP/UDP.cpp.s
+
+src/Record/Record.o: src/Record/Record.cpp.o
+.PHONY : src/Record/Record.o
+
+# target to build an object file
+src/Record/Record.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/record.dir/build.make CMakeFiles/record.dir/src/Record/Record.cpp.o
+.PHONY : src/Record/Record.cpp.o
+
+src/Record/Record.i: src/Record/Record.cpp.i
+.PHONY : src/Record/Record.i
+
+# target to preprocess a source file
+src/Record/Record.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/record.dir/build.make CMakeFiles/record.dir/src/Record/Record.cpp.i
+.PHONY : src/Record/Record.cpp.i
+
+src/Record/Record.s: src/Record/Record.cpp.s
+.PHONY : src/Record/Record.s
+
+# target to generate assembly for a file
+src/Record/Record.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/record.dir/build.make CMakeFiles/record.dir/src/Record/Record.cpp.s
+.PHONY : src/Record/Record.cpp.s
 
 src/RemoteControlPublisher/RemoteControlPublisher.o: src/RemoteControlPublisher/RemoteControlPublisher.cpp.o
 .PHONY : src/RemoteControlPublisher/RemoteControlPublisher.o
@@ -273,10 +310,14 @@ help:
 	@echo "... test"
 	@echo "... control_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... record"
 	@echo "... remote_control"
 	@echo "... home/whilker/Documents/Vida/Utils/UDP/UDP.o"
 	@echo "... home/whilker/Documents/Vida/Utils/UDP/UDP.i"
 	@echo "... home/whilker/Documents/Vida/Utils/UDP/UDP.s"
+	@echo "... src/Record/Record.o"
+	@echo "... src/Record/Record.i"
+	@echo "... src/Record/Record.s"
 	@echo "... src/RemoteControlPublisher/RemoteControlPublisher.o"
 	@echo "... src/RemoteControlPublisher/RemoteControlPublisher.i"
 	@echo "... src/RemoteControlPublisher/RemoteControlPublisher.s"

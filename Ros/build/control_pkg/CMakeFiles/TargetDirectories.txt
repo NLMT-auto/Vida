@@ -1,6 +1,7 @@
 /home/whilker/Documents/Vida/Ros/build/control_pkg/CMakeFiles/uninstall.dir
 /home/whilker/Documents/Vida/Ros/build/control_pkg/CMakeFiles/control_pkg_uninstall.dir
 /home/whilker/Documents/Vida/Ros/build/control_pkg/CMakeFiles/remote_control.dir
+/home/whilker/Documents/Vida/Ros/build/control_pkg/CMakeFiles/record.dir
 /home/whilker/Documents/Vida/Ros/build/control_pkg/CMakeFiles/test.dir
 /home/whilker/Documents/Vida/Ros/build/control_pkg/CMakeFiles/edit_cache.dir
 /home/whilker/Documents/Vida/Ros/build/control_pkg/CMakeFiles/rebuild_cache.dir
