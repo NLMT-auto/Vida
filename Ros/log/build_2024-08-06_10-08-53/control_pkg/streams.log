@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/whilker/Documents/Vida/Ros/build/control_pkg': CMAKE_PREFIX_PATH=/home/whilker/Documents/Vida/Ros/install/vida_interfaces:/home/whilker/Documents/Vida/Ros/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/Ros/build/control_pkg -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target record[0m
+[0.052s] [ 60%] Built target remote_control
+[0.056s] [ 80%] [32mBuilding CXX object CMakeFiles/record.dir/src/Record/Record.cpp.o[0m
+[5.886s] [100%] [32m[1mLinking CXX executable record[0m
+[6.151s] [100%] Built target record
+[6.160s] Invoked command in '/home/whilker/Documents/Vida/Ros/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/whilker/Documents/Vida/Ros/install/vida_interfaces:/home/whilker/Documents/Vida/Ros/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/whilker/Documents/Vida/Ros/build/control_pkg -- -j8 -l8
+[6.203s] Invoking command in '/home/whilker/Documents/Vida/Ros/build/control_pkg': CMAKE_PREFIX_PATH=/home/whilker/Documents/Vida/Ros/install/vida_interfaces:/home/whilker/Documents/Vida/Ros/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/Ros/build/control_pkg
+[6.212s] -- Install configuration: ""
+[6.212s] -- Installing: /home/whilker/Documents/Vida/Ros/install/control_pkg/lib/control_pkg/record
+[6.216s] -- Set runtime path of "/home/whilker/Documents/Vida/Ros/install/control_pkg/lib/control_pkg/record" to ""
+[6.216s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/lib/control_pkg/remote_control
+[6.216s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg
+[6.216s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/environment/path.sh
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/environment/path.dsv
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/local_setup.bash
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/local_setup.sh
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/local_setup.zsh
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/local_setup.dsv
+[6.217s] -- Installing: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/package.dsv
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/ament_index/resource_index/packages/control_pkg
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake
+[6.217s] -- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/package.xml
+[6.219s] Invoked command in '/home/whilker/Documents/Vida/Ros/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/whilker/Documents/Vida/Ros/install/vida_interfaces:/home/whilker/Documents/Vida/Ros/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/whilker/Documents/Vida/Ros/build/control_pkg

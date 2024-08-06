@@ -36,7 +36,7 @@ void Record::sensorDataCallBack(const vida_interfaces::msg::SensorDatas::SharedP
 
 void Record::saveSensors()
 {
-    outputSensors.open("../EncoderDataRecorder.txt", ios_base::out | ios_base::app);
+    outputSensors.open("/home/whilker/Documents/Vida/SensorDatasRecord.txt", ios_base::out | ios_base::app);
     outputSensors << BufferDataRecived.str();
     outputSensors.close();
 }

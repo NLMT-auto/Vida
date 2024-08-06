@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (-) JobUnselected: {'identifier': 'vida_interfaces'}
+[0.000475] (control_pkg) JobQueued: {'identifier': 'control_pkg', 'dependencies': OrderedDict([('vida_interfaces', '/home/whilker/Documents/Vida/Ros/install/vida_interfaces')])}
+[0.000567] (control_pkg) JobStarted: {'identifier': 'control_pkg'}
+[0.008566] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'cmake'}
+[0.008956] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'build'}
+[0.009664] (control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whilker/Documents/Vida/Ros/build/control_pkg', '--', '-j8', '-l8'], 'cwd': '/home/whilker/Documents/Vida/Ros/build/control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'whilker'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/whilker/Documents/Vida/Ros/install/vida_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whilker'), ('OLDPWD', '/home/whilker'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('ROS_IP', '192.168.1.7'), ('MANAGERPID', '1477'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/whilker/Documents/Vida/Ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whilker'), ('JOURNAL_STREAM', '8:35079'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whilker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-whilker:@/tmp/.ICE-unix/1625,unix/ubuntu-whilker:/tmp/.ICE-unix/1625'), ('INVOCATION_ID', '3453b89147ce41a6bb5c47f21632cd8d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C0RLS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/whilker/Documents/Vida/Ros/install/control_pkg:/home/whilker/Documents/Vida/Ros/install/vida_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fba7fba0-0862-47ba-bd8e-69d84bc57069'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.7:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whilker/Documents/Vida/Ros/build/control_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/whilker/Documents/Vida/Ros/install/vida_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '192.168.1.7'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/whilker/Documents/Vida/Ros/install/vida_interfaces:/home/whilker/Documents/Vida/Ros/install/control_pkg:/opt/ros/humble')]), 'shell': False}
+[0.038974] (control_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target record\x1b[0m\n'}
+[0.040529] (control_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target remote_control\x1b[0m\n'}
+[0.053018] (control_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/record.dir/src/Record/Record.cpp.o\x1b[0m\n'}
+[0.058277] (control_pkg) StdoutLine: {'line': b'[ 80%] Built target remote_control\n'}
+[0.099750] (-) TimerEvent: {}
+[0.200202] (-) TimerEvent: {}
+[0.300687] (-) TimerEvent: {}
+[0.401212] (-) TimerEvent: {}
+[0.501879] (-) TimerEvent: {}
+[0.602203] (-) TimerEvent: {}
+[0.702632] (-) TimerEvent: {}
+[0.803151] (-) TimerEvent: {}
+[0.903754] (-) TimerEvent: {}
+[1.004438] (-) TimerEvent: {}
+[1.105156] (-) TimerEvent: {}
+[1.205622] (-) TimerEvent: {}
+[1.305952] (-) TimerEvent: {}
+[1.406306] (-) TimerEvent: {}
+[1.506602] (-) TimerEvent: {}
+[1.606868] (-) TimerEvent: {}
+[1.707167] (-) TimerEvent: {}
+[1.807506] (-) TimerEvent: {}
+[1.907996] (-) TimerEvent: {}
+[2.008614] (-) TimerEvent: {}
+[2.108899] (-) TimerEvent: {}
+[2.209315] (-) TimerEvent: {}
+[2.309826] (-) TimerEvent: {}
+[2.410231] (-) TimerEvent: {}
+[2.510556] (-) TimerEvent: {}
+[2.610850] (-) TimerEvent: {}
+[2.711141] (-) TimerEvent: {}
+[2.811460] (-) TimerEvent: {}
+[2.911762] (-) TimerEvent: {}
+[3.012062] (-) TimerEvent: {}
+[3.112381] (-) TimerEvent: {}
+[3.212693] (-) TimerEvent: {}
+[3.312998] (-) TimerEvent: {}
+[3.413385] (-) TimerEvent: {}
+[3.513741] (-) TimerEvent: {}
+[3.614096] (-) TimerEvent: {}
+[3.714448] (-) TimerEvent: {}
+[3.814734] (-) TimerEvent: {}
+[3.915016] (-) TimerEvent: {}
+[4.015278] (-) TimerEvent: {}
+[4.115543] (-) TimerEvent: {}
+[4.215822] (-) TimerEvent: {}
+[4.316177] (-) TimerEvent: {}
+[4.416509] (-) TimerEvent: {}
+[4.516950] (-) TimerEvent: {}
+[4.617310] (-) TimerEvent: {}
+[4.717628] (-) TimerEvent: {}
+[4.817958] (-) TimerEvent: {}
+[4.918300] (-) TimerEvent: {}
+[5.018636] (-) TimerEvent: {}
+[5.118979] (-) TimerEvent: {}
+[5.219441] (-) TimerEvent: {}
+[5.319945] (-) TimerEvent: {}
+[5.420382] (-) TimerEvent: {}
+[5.520659] (-) TimerEvent: {}
+[5.621314] (-) TimerEvent: {}
+[5.721801] (-) TimerEvent: {}
+[5.814288] (control_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable record\x1b[0m\n'}
+[5.821896] (-) TimerEvent: {}
+[5.922326] (-) TimerEvent: {}
+[6.022634] (-) TimerEvent: {}
+[6.081968] (control_pkg) StdoutLine: {'line': b'[100%] Built target record\n'}
+[6.089961] (control_pkg) CommandEnded: {'returncode': 0}
+[6.114102] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'install'}
+[6.120800] (control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/whilker/Documents/Vida/Ros/build/control_pkg'], 'cwd': '/home/whilker/Documents/Vida/Ros/build/control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'whilker'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/whilker/Documents/Vida/Ros/install/vida_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whilker'), ('OLDPWD', '/home/whilker'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('ROS_IP', '192.168.1.7'), ('MANAGERPID', '1477'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/whilker/Documents/Vida/Ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whilker'), ('JOURNAL_STREAM', '8:35079'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whilker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-whilker:@/tmp/.ICE-unix/1625,unix/ubuntu-whilker:/tmp/.ICE-unix/1625'), ('INVOCATION_ID', '3453b89147ce41a6bb5c47f21632cd8d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C0RLS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/whilker/Documents/Vida/Ros/install/control_pkg:/home/whilker/Documents/Vida/Ros/install/vida_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fba7fba0-0862-47ba-bd8e-69d84bc57069'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.7:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whilker/Documents/Vida/Ros/build/control_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/whilker/Documents/Vida/Ros/install/vida_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '192.168.1.7'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/whilker/Documents/Vida/Ros/install/vida_interfaces:/home/whilker/Documents/Vida/Ros/install/control_pkg:/opt/ros/humble')]), 'shell': False}
+[6.122703] (-) TimerEvent: {}
+[6.126946] (control_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.127600] (control_pkg) StdoutLine: {'line': b'-- Installing: /home/whilker/Documents/Vida/Ros/install/control_pkg/lib/control_pkg/record\n'}
+[6.132699] (control_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/whilker/Documents/Vida/Ros/install/control_pkg/lib/control_pkg/record" to ""\n'}
+[6.132969] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/lib/control_pkg/remote_control\n'}
+[6.133188] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg\n'}
+[6.133355] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg\n'}
+[6.133495] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh\n'}
+[6.133646] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv\n'}
+[6.133770] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/environment/path.sh\n'}
+[6.133863] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/environment/path.dsv\n'}
+[6.133938] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/local_setup.bash\n'}
+[6.134014] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/local_setup.sh\n'}
+[6.134088] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/local_setup.zsh\n'}
+[6.134163] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/local_setup.dsv\n'}
+[6.134242] (control_pkg) StdoutLine: {'line': b'-- Installing: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/package.dsv\n'}
+[6.134317] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/ament_index/resource_index/packages/control_pkg\n'}
+[6.134398] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake\n'}
+[6.134465] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake\n'}
+[6.134541] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/whilker/Documents/Vida/Ros/install/control_pkg/share/control_pkg/package.xml\n'}
+[6.135505] (control_pkg) CommandEnded: {'returncode': 0}
+[6.171828] (control_pkg) JobEnded: {'identifier': 'control_pkg', 'rc': 0}
+[6.172380] (-) EventReactorShutdown: {}
