@@ -14,13 +14,12 @@ Record::~Record()
 void Record::sensorDataCallBack(const vida_interfaces::msg::SensorDatas::SharedPtr msg)
 {
 
-    auto timestamp = this->get_clock()->now();
-    auto time_t_now = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
+    auto timestamp = chrono::high_resolution_clock::now();
 
-    stringstream ss;
-    ss << std::put_time(std::localtime(&time_t_now), "%Y-%m-%d %H:%M:%S");
+    auto duration = timestamp.time_since_epoch();
+    auto nanoseconds = chrono::duration_cast<std::chrono::nanoseconds>(duration).count();
 
-    BufferDataRecived << ss.str()<< ";"
+    BufferDataRecived << nanoseconds << ";"
                       << msg->left_pulses << ";"
                       << msg->right_pulses << ";"
                       << msg->back_pulses << ";"
